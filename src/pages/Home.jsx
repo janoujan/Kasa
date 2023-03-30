@@ -26,7 +26,7 @@ export default function Home() {
 
       // fetching and parsing data, finally stop Spinloader
       try {
-        const response = await fetch('https://janoujan.github.io/P7-kaza/logements.json')
+        const response = await fetch('https://kasademo.netlify.app/logements.json')
         const data = await response.json()
 
         // in case our catch{} doesn't handle the error...just in case but tertary condition isn't necessary

@@ -94,7 +94,7 @@ export default function Location() {
       setDataLoading(true)
 
       try {
-        const response = await fetch('https://janoujan.github.io/P7-kaza/logements.json')
+        const response = await fetch('https://kasademo.netlify.app/logements.json')
         const accomodations = await response.json()
 
         // we use find() to get the accomodation corresponding to url params.id
